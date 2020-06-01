@@ -1,0 +1,29 @@
+body {
+    background-image: url('./images/headerBG.jpg');
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(42, 45, 80, 0.651);
+}
+
+.content-wrapper {
+    max-width: 600px;
+    text-align: center;
+    color: white;
+}
+
+.content-wrapper h1 {
+    height: 0;
+    opacity: 0;
+}
+
+a, a:visited {
+    color: inherit;
+}

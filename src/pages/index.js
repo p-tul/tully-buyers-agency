@@ -1,24 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Testamonials from "../components/testamonials"
-import ContactForm from '../components/contactForm'
-import Showcase from '../components/showcase'
-import IconSection from '../components/iconSection'
-import HomeContent from '../components/homeContent'
-
+import '../underConstruction.css'
+import Logo from '../images/logo-white.png'
 
 const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <Showcase />
-    <HomeContent />
-    <IconSection />
-    <Testamonials />
-    <ContactForm />
-  </Layout>
+	<div className='container' >
+		<div className='content-wrapper'>
+			<img src={Logo} />
+			<h1>Tully Buyers Agency</h1>
+			<h2>Under Construction</h2>
+			<p>If you have would like to get in touch, please call John Tully on <a href='tel:0414588744'>0414 588 744</a> or send us an <a href='mailto:john@tullybuyersagency.com.au' target='_blank'>email</a>.</p>
+		</div>
+
+	</div>
 )
 
 export default IndexPage
