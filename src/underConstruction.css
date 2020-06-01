@@ -17,6 +17,7 @@ body {
     max-width: 600px;
     text-align: center;
     color: white;
+    margin: 2rem;
 }
 
 .content-wrapper h1 {
